@@ -23,15 +23,28 @@ public class EquTest {
 	@Test
 		public void test02{
 		
-		assertEqulas(ojb.countLetterA("aatrox"),5)
+		assertEqulas(ojb.countLetterA("aatrox"),5);
 		
 	}
 	
 	@Test
 		public void test03{
 		
-		assertTrue(ojb.checkTwoLetter("a"))
+		assertTrue(ojb.checkTwoLetter("a"));
 		
 	}
+	
+	@Test
+		public void test04{
+	
+		assertFalse(ojb.checkTwoLetter("basbd"));
+	
+}
+	@Test
+		public void test05{
+	
+		assertNotEquals(25,ojb.square(5));
+	
+}
 
 }
